@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("image/background2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+	font-size: 14px;
+}
+
+.inputForm {
+	height: 450px;
+	background-color: white;
+
+}
+
+@media (min-width: 768px) {
+
+  .fixed-flex-width-item {
+  flex: 0 0 430px;
+  border: 6px solid white;
+  border-radius: 3px;
+}
+  .custom-nav {
+    float: left;
+    padding-right: 15px;
+  }
+
+}
+
+video {
+  padding: 0;
+  margin: 0;
+}
+
+.hiBNB {
+  height: 400px;
+  background-color: white;
+}
+
+.row-flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 350px;
+}
+
+
